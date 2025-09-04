@@ -63,8 +63,6 @@
       {tag:'py', title:'Python for Beginners - Full Course', src:'https://www.youtube.com/embed/eWRfhZUzrAc'},
       {tag:'py', title:'Python Crash Course', src:'https://www.youtube.com/embed/kqtD5dpn9C8'},
       {tag:'js', title:'JavaScript Full Course (Beginner to Advanced)', src:'https://www.youtube.com/embed/PkZNo7MFNFg'},
-      {tag:'js', title:'Java Full Course for Beginners', src:'https://www.youtube.com/embed/eIrMbAQSU34'},
-      {tag:'js', title:'Java Tutorial Playlist', src:'https://www.youtube.com/embed/BGTx91t8q50'},
       {tag:'php', title:'PHP Full Course 2025', src:'https://www.youtube.com/embed/VGBWm6xtPWs'},
       {tag:'php', title:'PHP & MySQL Crash Course', src:'https://www.youtube.com/embed/Ak6VTSekGP4'}
     ];
@@ -255,3 +253,4 @@
       w = canvas.width = window.innerWidth;
       h = canvas.height = window.innerHeight;
     });
+
