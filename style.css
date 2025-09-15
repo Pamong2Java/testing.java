@@ -322,7 +322,7 @@ main {
 .chip.active {
   background: linear-gradient(90deg, #00b4d8, #90e0ef);
   color: #002026;
-  box-shadow: 0 4px 12px rgba(0, 180, 216, 0.4);
+  box-shadow: 0 44px 12px rgba(0, 180, 216, 0.4);
   border-color: #00b4d8;
 }
 
@@ -688,9 +688,14 @@ section {
     width: 100%;
     text-align: center;
   }
+  .hero .right { /* Added this block */
+    width: 100%; /* Ensure it takes full width */
+  }
   .summary-box {
     width: 100%; /* Ensure summary-box takes full width */
     margin-top: 25px;
+    margin-left: auto; /* Center the summary box */
+    margin-right: auto; /* Center the summary box */
   }
 }
 
@@ -854,6 +859,7 @@ section {
   }
 
   .menu-toggle {
+    display: block;
     font-size: 1.8rem;
   }
 
