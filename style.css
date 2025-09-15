@@ -391,7 +391,7 @@ iframe {
   height: 180px;
   overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 44px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease;
 }
 
@@ -691,8 +691,6 @@ section {
   .summary-box {
     width: 100%; /* Ensure summary-box takes full width */
     margin-top: 25px;
-    margin-left: auto; /* Add this for centering */
-    margin-right: auto; /* Add this for centering */
   }
 }
 
